@@ -14,6 +14,5 @@ Application is now open sourced. Link to Google Play Store [Speed Reading (RSVP)
 Import project to Android Studio (0.6.1) and run.
 
 ### Authors
-Richard Mihalovič (richard@mihalovic.sk)
-
-Peter Bartoš (http://www.peterbartos.sk/)
+Richard Mihalovič (richard@mihalovic.sk)  
+Peter Bartoš (www.peterbartos.sk)
