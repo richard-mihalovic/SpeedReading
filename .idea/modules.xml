@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpeedReading.iml" filepath="$PROJECT_DIR$/SpeedReading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpeedReading/SpeedReading-SpeedReading.iml" filepath="$PROJECT_DIR$/SpeedReading/SpeedReading-SpeedReading.iml" />
+    </modules>
+  </component>
+</project>
+

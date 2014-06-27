@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.energix.speedreading"
+    android:versionCode="8"
+    android:versionName="1.08"
+>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19"
+    />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light"
+    >
+        <activity
+            android:name="info.energix.speedreading.MainActivity" android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ImportActivity" />
+        <activity android:name=".ImportClipboardActivity" />
+        <activity android:name=".ImportGutenbergTop100Activity" />
+        <activity android:name=".ImportFileActivity" android:configChanges="orientation|keyboard|keyboardHidden|screenSize"/>
+        <activity android:name="info.energix.speedreading.ReaderActivity" />
+    </application>
+
+</manifest>

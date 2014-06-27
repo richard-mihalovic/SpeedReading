@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+>
+
+    <info.energix.speedreading.ReaderView
+        android:id="@+id/reader"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+    />
+
+    <LinearLayout android:id="@+id/topButtonsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+    >
+            
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+        >
+            <Button
+                android:id="@+id/buttonSpeedDown"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="-"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/gray_circle"
+            />
+
+            <TextView android:id="@+id/speedText" 
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Speed ? wpm"
+                android:textSize="15sp"
+                android:gravity="center"
+            />
+            
+            <Button
+                android:id="@+id/buttonSpeedUp"
+				android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="+"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/gray_circle"
+            />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+        >
+            <Button
+                android:id="@+id/buttonFontDown"
+				android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="-"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/gray_circle"
+            />
+            
+            <TextView android:id="@+id/fontSizeText" 
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:gravity="center"/>
+            
+            <Button
+                android:id="@+id/buttonFontUp"
+				android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="+"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/gray_circle"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+        >
+            <Button
+                android:id="@+id/buttonFontSwitch"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="T"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/gray_circle"
+                />
+
+            <TextView android:id="@+id/separator"
+                  android:layout_width="wrap_content"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:text=""
+                  android:textSize="15sp"
+                  android:gravity="center"
+            />
+
+            <ImageButton
+                android:id="@+id/buttonChangeTheme"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/icon_theme"
+                android:background="@drawable/gray_circle"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+            />
+        </LinearLayout>
+
+        
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/playButtonsLayout" 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@+id/textProgress"
+        android:paddingBottom="15dp"
+    >
+        <Button
+            android:id="@+id/buttonJumpPrevious"
+			android:layout_width="50dp" android:layout_height="50dp"
+            android:text="&lt;"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="@drawable/gray_circle"
+            android:layout_marginRight="5dp"
+        />
+        <ImageButton
+            android:id="@+id/buttonPlay"
+			android:layout_width="75dp" android:layout_height="75dp"
+            android:src="@drawable/play_pause"
+            android:background="@drawable/gray_circle"
+        />
+        <Button
+            android:id="@+id/buttonJumpNext"
+			android:layout_width="50dp" android:layout_height="50dp"
+            android:text="&gt;"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="@drawable/gray_circle"
+            android:layout_marginLeft="5dp"
+        />
+
+    </LinearLayout>
+
+    <ProgressBar android:id="@+id/textProgress" 
+        android:indeterminate="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:paddingLeft="10dp" android:paddingRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:progress="0"
+        android:layout_alignParentBottom="true"
+    />
+    
+</RelativeLayout>
