@@ -16,3 +16,6 @@ Import project to Android Studio (0.6.1) and run.
 ### Authors
 Richard Mihalovič (richard@mihalovic.sk)  
 Peter Bartoš (www.peterbartos.sk)
+
+### Licence
+Released under GNU GPL v3.0.
