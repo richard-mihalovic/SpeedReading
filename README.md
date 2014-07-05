@@ -13,6 +13,9 @@ Application is now open sourced. Link to Google Play Store [Speed Reading (RSVP)
 ### How to run ?
 Import project to Android Studio (0.6.1) and run.
 
+### Download
+Download [SpeedReading.apk](https://github.com/richard-mihalovic/SpeedReading/blob/master/SpeedReading/apk/SpeedReading-debug.apk?raw=true)
+
 ### Authors
 Richard Mihalovič (richard@mihalovic.sk)  
 Peter Bartoš (www.peterbartos.sk)
