@@ -25,7 +25,64 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: info.energix.speedreading" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c521823-0488-48ff-9391-11936c4e2667" name="Default" comment="" />
+    <list default="true" id="5c521823-0488-48ff-9391-11936c4e2667" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\.idea\libraries\actionbarsherlock_4_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\.idea\libraries\gson_2_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\.idea\libraries\jsoup_1_7_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\.idea\libraries\support_v4_13_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\AuthFailureError.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\Cache.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\CacheDispatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\DefaultRetryPolicy.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\ExecutorDelivery.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\Network.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\NetworkDispatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\NetworkError.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\NetworkResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\NoConnectionError.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\ParseError.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\Request.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\RequestQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\Response.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\ResponseDelivery.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\RetryPolicy.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\ServerError.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\TimeoutError.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\VolleyError.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\VolleyLog.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\AndroidAuthenticator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\Authenticator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\BasicNetwork.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\ByteArrayPool.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\ClearCacheRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\DiskBasedCache.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\HttpClientStack.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\HttpHeaderParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\HttpStack.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\HurlStack.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\ImageLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\ImageRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\JsonArrayRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\JsonObjectRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\JsonRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\NetworkImageView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\NoCache.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\PoolingByteArrayOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\RequestFuture.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\StringRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\Volley.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\info\energix\speedreading\models\Source.java" afterPath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/models/Document.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportClipboardActivity.java" afterPath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportClipboardActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportFileActivity.java" afterPath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportFileActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Activity.java" afterPath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/MainActivity.java" afterPath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/Settings.java" afterPath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/Settings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/SpeedReading-SpeedReading.iml" afterPath="$PROJECT_DIR$/SpeedReading/SpeedReading-SpeedReading.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/build.gradle" afterPath="$PROJECT_DIR$/SpeedReading/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="FastReader.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,15 +135,26 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="FastReader" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ImportGutenbergTop100Activity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.030357143" vertical-offset="1683" max-vertical-offset="3978">
+              <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -440,6 +508,11 @@
                 <option name="name" value="prepareComActionbarsherlockActionbarsherlock440Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.mcxiaoke.volley:library-aar:1.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SpeedReading" />
+                <option name="name" value="prepareComMcxiaokeVolleyLibraryAar100Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SpeedReading" />
                 <option name="name" value="prepareDebugDependencies" />
               </ExternalTaskPojo>
@@ -529,7 +602,7 @@
       <map>
         <entry key="$PROJECT_DIR$/../AdresarSala" value="1385188044000" />
         <entry key="$PROJECT_DIR$/../BabyMeter" value="1372397661000" />
-        <entry key="$PROJECT_DIR$" value="4210922470000" />
+        <entry key="$PROJECT_DIR$" value="4211823168419" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -739,21 +812,24 @@
         <option value="$PROJECT_DIR$/SpeedReading/src/main/res/layout/activity_main_row.xml" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ReaderView.java" />
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-        <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/MainActivity.java" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/res/layout/activity_import_from_clipboard.xml" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/BrowserActivity.java" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportFromClipboardActivity.java" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportClipboardActivity.java" />
-        <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportFileActivity.java" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Action.java" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportActivity.java" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/res/layout/activity_import_gutenberg_top_100.xml" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/res/layout/activity_import_gutenberg_top_100_row.xml" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/java/volley/Request.java" />
-        <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Activity.java" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/res/layout/activity_import.xml" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/models/Source.java" />
+        <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/models/Document.java" />
+        <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportFileActivity.java" />
+        <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/MainActivity.java" />
         <option value="$PROJECT_DIR$/SpeedReading/build.gradle" />
+        <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/Settings.java" />
+        <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Activity.java" />
       </list>
     </option>
   </component>
@@ -813,7 +889,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -833,8 +908,75 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpeedReading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpeedReading" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpeedReading" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpeedReading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpeedReading" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpeedReading" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpeedReading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpeedReading" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpeedReading" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="speedreading" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -910,19 +1052,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -948,6 +1077,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1127,36 +1269,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.49948293" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39921975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32769832" sideWeight="0.5012205" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32312927" sideWeight="0.49959317" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.4987795" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969216" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32769832" sideWeight="0.49959317" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24979591" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24810892" sideWeight="0.6666667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24810892" sideWeight="0.6666667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32312927" sideWeight="0.49948293" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724902" sideWeight="0.49948293" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1181,14 +1323,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpeedReading/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="585">
-          <caret line="8" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="180">
@@ -1345,13 +1479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/models/Source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.061349694" vertical-offset="0" max-vertical-offset="489">
-          <caret line="2" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/res/layout/activity_browser.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -1409,13 +1536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1905">
-          <caret line="85" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/res/layout/activity_import_gutenberg_top_100_row.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -1426,34 +1546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/volley/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49460045" vertical-offset="4496" max-vertical-offset="7455">
-          <caret line="366" column="71" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/volley/toolbox/StringRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2760736" vertical-offset="0" max-vertical-offset="885">
-          <caret line="29" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportClipboardActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9695122" vertical-offset="498" max-vertical-offset="1290">
-          <caret line="85" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportFileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9386503" vertical-offset="651" max-vertical-offset="2580">
-          <caret line="104" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/res/layout/activity_import.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -1461,13 +1553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="555">
           <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1635" max-vertical-offset="3585">
-          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1488,7 +1573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="547">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1496,7 +1580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="547">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1512,7 +1595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1520,7 +1602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="547">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1536,7 +1617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1544,7 +1624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1552,7 +1631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1560,15 +1638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpeedReading/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57678574" vertical-offset="0" max-vertical-offset="560">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1576,6 +1645,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/models/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060714286" vertical-offset="0" max-vertical-offset="560">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportClipboardActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33270678" vertical-offset="1166" max-vertical-offset="1751">
+          <caret line="82" column="68" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportFileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33270678" vertical-offset="1251" max-vertical-offset="3230">
+          <caret line="85" column="62" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9392857" vertical-offset="987" max-vertical-offset="2125">
+          <caret line="115" column="27" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpeedReading/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7285714" vertical-offset="0" max-vertical-offset="560">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9392857" vertical-offset="1191" max-vertical-offset="1819">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030357143" vertical-offset="1683" max-vertical-offset="3978">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding />
         </state>
       </provider>

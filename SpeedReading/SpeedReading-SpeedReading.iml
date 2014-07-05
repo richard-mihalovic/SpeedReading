@@ -65,6 +65,7 @@
     <orderEntry type="library" exported="" name="gson-2.2.4" level="project" />
     <orderEntry type="library" exported="" name="jsoup-1.7.3" level="project" />
     <orderEntry type="library" exported="" name="actionbarsherlock-4.4.0" level="project" />
+    <orderEntry type="library" exported="" name="library-aar-1.0.0" level="project" />
   </component>
 </module>
 
