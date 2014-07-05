@@ -12,7 +12,7 @@ import com.google.gson.JsonParser;
 import java.util.ArrayList;
 
 import info.energix.speedreading.models.AppSettings;
-import info.energix.speedreading.models.Source;
+import info.energix.speedreading.models.Document;
 import info.energix.speedreading.utils.Hash;
 
 public class Settings {
@@ -38,8 +38,8 @@ public class Settings {
         return new Gson().fromJson(json, AppSettings.class);
     }
 
-    public static void saveSources(Context context, ArrayList<Source> sources){
-        String json = new Gson().toJson(sources);
+    public static void saveDocuments(Context context, ArrayList<Document> documents){
+        String json = new Gson().toJson(documents);
 
         SharedPreferences appSharedPrefs;
         SharedPreferences.Editor prefsEditor;
@@ -47,17 +47,17 @@ public class Settings {
         appSharedPrefs = context.getSharedPreferences(APP_ID, Activity.MODE_PRIVATE);
         prefsEditor = appSharedPrefs.edit();
 
-        prefsEditor.putString("sources", new Gson().toJson(sources));
+        prefsEditor.putString("documents", new Gson().toJson(documents));
         prefsEditor.commit();
     }
 
-    public static ArrayList<Source> loadSources(Context context){
-        ArrayList<Source> sources = new ArrayList<Source>();
+    public static ArrayList<Document> loadDocuments(Context context){
+        ArrayList<Document> documents = new ArrayList<Document>();
 
         SharedPreferences appSharedPrefs;
         appSharedPrefs = context.getSharedPreferences(APP_ID, Activity.MODE_PRIVATE);
 
-        String json = appSharedPrefs.getString("sources", "");
+        String json = appSharedPrefs.getString("documents", "");
 
         try {
             JsonParser parser = new JsonParser();
@@ -66,32 +66,32 @@ public class Settings {
             for(int i = 0, n = array.size(); i < n; i++) {
                 Gson gson = new Gson();
 
-                Source source = gson.fromJson(array.get(i), Source.class);
-                sources.add(source);
+                Document document = gson.fromJson(array.get(i), Document.class);
+                documents.add(document);
             }
         } catch (Exception e) {
-            Log.e("loadSources", e.toString());
+            Log.e("loadDocuments", e.toString());
         }
 
-        return sources;
+        return documents;
     }
 
-    public static void addSource(Context context, Source source){
-        ArrayList<Source> sources = Settings.loadSources(context);
-        sources.add(source);
-        Settings.saveSources(context, sources);
+    public static void addDocument(Context context, Document document){
+        ArrayList<Document> documents = Settings.loadDocuments(context);
+        documents.add(document);
+        Settings.saveDocuments(context, documents);
     }
 
-    public static void deleteSource(Context context, String sourceId){
-        ArrayList<Source> sources = Settings.loadSources(context);
+    public static void deleteDocument(Context context, String sourceId){
+        ArrayList<Document> documents = Settings.loadDocuments(context);
 
-        for(int i=0, n=sources.size(); i < n; i++) {
-            if(Hash.md5(sources.get(i).getPath()).equals(sourceId)) {
-                sources.remove(i); break;
+        for(int i=0, n= documents.size(); i < n; i++) {
+            if(Hash.md5(documents.get(i).getPath()).equals(sourceId)) {
+                documents.remove(i); break;
             }
         }
 
-        Settings.saveSources(context, sources);
+        Settings.saveDocuments(context, documents);
     }
 
     public static void save(Context context, String variable, String value) {

@@ -6,7 +6,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,7 +23,7 @@ import com.actionbarsherlock.view.MenuItem;
 import java.io.File;
 import java.util.ArrayList;
 
-import info.energix.speedreading.models.Source;
+import info.energix.speedreading.models.Document;
 import info.energix.speedreading.utils.Hash;
 
 public class MainActivity extends SherlockListActivity {
@@ -42,10 +41,10 @@ public class MainActivity extends SherlockListActivity {
 
     private void refreshSources(){
         setListAdapter(
-            new SourcesAdapter(
+            new DocumentsAdapter(
                 this,
                 R.layout.activity_main_row,
-                Settings.loadSources(this)
+                Settings.loadDocuments(this)
             )
         );
     }
@@ -69,7 +68,7 @@ public class MainActivity extends SherlockListActivity {
 
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id){
-        Source item = (Source) l.getItemAtPosition(position);
+        Document item = (Document) l.getItemAtPosition(position);
 
         if(!new File(item.getPath()).exists()) {
             Toast.makeText(
@@ -85,10 +84,10 @@ public class MainActivity extends SherlockListActivity {
         startActivity(intent);
     }
 
-    private class SourcesAdapter extends ArrayAdapter<Source> {
-        private ArrayList<Source> items;
+    private class DocumentsAdapter extends ArrayAdapter<Document> {
+        private ArrayList<Document> items;
 
-        public SourcesAdapter(Context context, int textViewResourceId, ArrayList<Source> items) {
+        public DocumentsAdapter(Context context, int textViewResourceId, ArrayList<Document> items) {
             super(context, textViewResourceId, items);
             this.items = items;
         }
@@ -101,7 +100,7 @@ public class MainActivity extends SherlockListActivity {
                 v = vi.inflate(R.layout.activity_main_row, null);
             }
 
-            final Source item = items.get(position);
+            final Document item = items.get(position);
             if (item != null) {
                 TextView title = (TextView) v.findViewById(R.id.title);
                 ImageButton btnDelete = (ImageButton) v.findViewById(R.id.delete);
@@ -130,7 +129,7 @@ public class MainActivity extends SherlockListActivity {
                             dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
-                                    Settings.deleteSource(MainActivity.this, md5Id);
+                                    Settings.deleteDocument(MainActivity.this, md5Id);
                                     dialog.dismiss();
                                     refreshSources();
                                 }

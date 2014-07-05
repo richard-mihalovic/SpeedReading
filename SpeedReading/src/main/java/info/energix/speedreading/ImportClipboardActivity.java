@@ -17,7 +17,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 
-import info.energix.speedreading.models.Source;
+import info.energix.speedreading.models.Document;
 
 public class ImportClipboardActivity extends SherlockActivity{
     private Button b_save;
@@ -75,12 +75,12 @@ public class ImportClipboardActivity extends SherlockActivity{
 
                                 String fileName = f.getAbsolutePath();
 
-                                Source source = new Source();
-                                source.setTitle(et_saveFileAs.getText().toString());
-                                source.setPath(fileName);
-                                source.setWordCount(0);
-                                source.setWordCurrent(0);
-                                Settings.addSource(context, source);
+                                Document document = new Document();
+                                document.setTitle(et_saveFileAs.getText().toString());
+                                document.setPath(fileName);
+                                document.setWordCount(0);
+                                document.setWordCurrent(0);
+                                Settings.addDocument(context, document);
 
                                 finish();
                             } catch (Exception e) {

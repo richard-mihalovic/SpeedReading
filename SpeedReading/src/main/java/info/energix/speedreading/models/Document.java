@@ -1,12 +1,12 @@
 package info.energix.speedreading.models;
 
-public class Source {
+public class Document {
     private String title = "";
     private String path = "";
     private Integer wordCount = 0;
     private Integer wordCurrent = 0;
 
-    public Source(){}
+    public Document(){}
 
     public String getTitle() {
         return title;

@@ -3,8 +3,6 @@ package info.energix.speedreading;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -12,16 +10,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.ArrayAdapter;
-import android.widget.ImageButton;
 import android.widget.ListView;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.app.SherlockListActivity;
-import com.android.volley.AuthFailureError;
-import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -31,7 +24,6 @@ import com.android.volley.toolbox.Volley;
 
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
@@ -39,12 +31,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
-import info.energix.speedreading.models.Source;
-import info.energix.speedreading.utils.Hash;
+import info.energix.speedreading.models.Document;
 
 public class ImportGutenbergTop100Activity extends SherlockListActivity {
     private DefaultHttpClient client;
@@ -70,7 +58,7 @@ public class ImportGutenbergTop100Activity extends SherlockListActivity {
     private void loadTop100List(){
         if(items.size() > 0) {
             setListAdapter(
-                new SourcesAdapter(
+                new BooksAdapter(
                     this,
                     R.layout.activity_import_gutenberg_top_100_row,
                     items
@@ -100,7 +88,7 @@ public class ImportGutenbergTop100Activity extends SherlockListActivity {
     private class ResponseListener implements Response.Listener<String>{
         @Override
         public void onResponse(String response) {
-            Document doc = Jsoup.parse(response, "UTF-8");
+            org.jsoup.nodes.Document doc = Jsoup.parse(response, "UTF-8");
             items.clear();
 
             Element content = doc.getElementById("books-last30");
@@ -124,7 +112,7 @@ public class ImportGutenbergTop100Activity extends SherlockListActivity {
             }
 
             setListAdapter(
-                new SourcesAdapter(ImportGutenbergTop100Activity.this,
+                new BooksAdapter(ImportGutenbergTop100Activity.this,
                 R.layout.activity_import_gutenberg_top_100_row,
                 items
             ));
@@ -205,12 +193,12 @@ public class ImportGutenbergTop100Activity extends SherlockListActivity {
 
                 String fileName = f.getAbsolutePath();
 
-                Source source = new Source();
-                source.setTitle(downloadTitle);
-                source.setPath(fileName);
-                source.setWordCount(0);
-                source.setWordCurrent(0);
-                Settings.addSource(ImportGutenbergTop100Activity.this, source);
+                Document document = new Document();
+                document.setTitle(downloadTitle);
+                document.setPath(fileName);
+                document.setWordCount(0);
+                document.setWordCurrent(0);
+                Settings.addDocument(ImportGutenbergTop100Activity.this, document);
 
             } catch (Exception e) {
                 Log.e("DOWNLOAD", e.toString());
@@ -241,10 +229,10 @@ public class ImportGutenbergTop100Activity extends SherlockListActivity {
         return new String[]{title, author, link};
     }
 
-    private class SourcesAdapter extends ArrayAdapter<String> {
+    private class BooksAdapter extends ArrayAdapter<String> {
         private ArrayList<String> items;
 
-        public SourcesAdapter(Context context, int textViewResourceId, ArrayList<String> items) {
+        public BooksAdapter(Context context, int textViewResourceId, ArrayList<String> items) {
             super(context, textViewResourceId, items);
             this.items = items;
         }
@@ -276,5 +264,4 @@ public class ImportGutenbergTop100Activity extends SherlockListActivity {
             return v;
         }
     }
-
 }

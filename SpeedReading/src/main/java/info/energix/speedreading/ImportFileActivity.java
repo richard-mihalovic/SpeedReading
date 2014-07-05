@@ -6,7 +6,6 @@ import android.content.DialogInterface;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Environment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,12 +19,10 @@ import com.actionbarsherlock.app.SherlockListActivity;
 import com.actionbarsherlock.view.MenuItem;
 
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import info.energix.speedreading.models.Source;
+import info.energix.speedreading.models.Document;
 import info.energix.speedreading.utils.IO;
 
 public class ImportFileActivity extends SherlockListActivity {
@@ -81,12 +78,12 @@ public class ImportFileActivity extends SherlockListActivity {
                 .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         try {
-                            Source source = new Source();
-                            source.setTitle(title);
-                            source.setPath(fileName);
-                            source.setWordCount(0);
-                            source.setWordCurrent(0);
-                            Settings.addSource(context, source);
+                            Document document = new Document();
+                            document.setTitle(title);
+                            document.setPath(fileName);
+                            document.setWordCount(0);
+                            document.setWordCurrent(0);
+                            Settings.addDocument(context, document);
 
                             finish();
                         } catch (Exception e) {
@@ -121,12 +118,7 @@ public class ImportFileActivity extends SherlockListActivity {
         File[] files = IO.listFiles(scanPath, false);
         if(files != null) {
             for(File f : files) {
-/*TODO                if(
-                    !f.getName().startsWith(".")
-                    &&
-                    f.getName().toUpperCase().endsWith(".TXT")
-                )
-*/                    listFiles.add("F:" + f.getName());
+                listFiles.add("F:" + f.getName());
             }
         }
 
