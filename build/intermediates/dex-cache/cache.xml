@@ -8,6 +8,12 @@
         revision="19.1.0"
         sha1="3fe75433da602500cc71fcc1c46e5550291dd45d"/>
     <item
+        dex="C:\GitHub\SpeedReading\SpeedReading\build\intermediates\pre-dexed\debug\classes-ece590fea90dc246acc5afaa039709fe8f2bf3e5.jar"
+        jar="C:\GitHub\SpeedReading\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e"/>
+    <item
         dex="C:\GitHub\SpeedReading\SpeedReading\build\intermediates\pre-dexed\debug\gson-2.2.4-e5433e2f3b941579a6eafc25b929648a97c7b850.jar"
         jar="C:\Users\Adela\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
         jumboMode="false"

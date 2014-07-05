@@ -1,3 +1,4 @@
+build/*
 SpeedReading/build/
 *.apk
 .gradle

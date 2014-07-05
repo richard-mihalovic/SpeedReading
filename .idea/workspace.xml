@@ -26,61 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c521823-0488-48ff-9391-11936c4e2667" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\.idea\libraries\actionbarsherlock_4_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\.idea\libraries\gson_2_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\.idea\libraries\jsoup_1_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\.idea\libraries\support_v4_13_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\AuthFailureError.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\Cache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\CacheDispatcher.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\DefaultRetryPolicy.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\ExecutorDelivery.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\Network.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\NetworkDispatcher.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\NetworkError.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\NetworkResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\NoConnectionError.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\ParseError.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\Request.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\RequestQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\Response.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\ResponseDelivery.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\RetryPolicy.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\ServerError.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\TimeoutError.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\VolleyError.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\VolleyLog.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\AndroidAuthenticator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\Authenticator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\BasicNetwork.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\ByteArrayPool.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\ClearCacheRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\DiskBasedCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\HttpClientStack.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\HttpHeaderParser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\HttpStack.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\HurlStack.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\ImageLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\ImageRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\JsonArrayRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\JsonObjectRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\JsonRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\NetworkImageView.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\NoCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\PoolingByteArrayOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\RequestFuture.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\StringRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\volley\toolbox\Volley.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\GitHub\SpeedReading\SpeedReading\src\main\java\info\energix\speedreading\models\Source.java" afterPath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/models/Document.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportClipboardActivity.java" afterPath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportClipboardActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportFileActivity.java" afterPath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportFileActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Activity.java" afterPath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/MainActivity.java" afterPath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/Settings.java" afterPath="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/Settings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/SpeedReading-SpeedReading.iml" afterPath="$PROJECT_DIR$/SpeedReading/SpeedReading-SpeedReading.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedReading/build.gradle" afterPath="$PROJECT_DIR$/SpeedReading/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FastReader.iws" />
@@ -144,11 +91,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImportGutenbergTop100Activity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ImportGutenbergTop100Activity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.030357143" vertical-offset="1683" max-vertical-offset="3978">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="3978">
               <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535">
+              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -830,6 +787,7 @@
         <option value="$PROJECT_DIR$/SpeedReading/build.gradle" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/Settings.java" />
         <option value="$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Activity.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -919,58 +877,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SpeedReading" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpeedReading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpeedReading" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpeedReading" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpeedReading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpeedReading" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpeedReading" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speedreading" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1613,13 +1519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
@@ -1703,8 +1602,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpeedReading/src/main/java/info/energix/speedreading/ImportGutenbergTop100Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.030357143" vertical-offset="1683" max-vertical-offset="3978">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="3978">
           <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding />
         </state>
       </provider>
